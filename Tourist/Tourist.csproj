@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <Version>1.2.10</Version>
-        <TargetFramework>net6-windows</TargetFramework>
+        <Version>1.2.12</Version>
+        <TargetFramework>net7-windows</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -12,7 +12,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <DalamudLibPath>E:\GitHubDesktop\Dalamud 7.3.5.0\bin\Release</DalamudLibPath>
+        <DalamudLibPath>E:\GitHubDesktop\dohwacorp\Dalamud\bin\Release</DalamudLibPath>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
@@ -47,8 +47,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="DalamudPackager" Version="2.1.8"/>
-        <PackageReference Include="FFXIVWeather.Lumina" Version="2.2.0"/>
+        <PackageReference Include="DalamudPackager" Version="2.1.11" />
+        <PackageReference Include="FFXIVWeather.Lumina" Version="2.2.0" />
     </ItemGroup>
 
 </Project>
